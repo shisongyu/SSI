@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#div{
+    width: 100%;
+}
+#tou{
+    width: 100%;
+    height: 50px;
+    background-color: #F4F4F4;
+    text-align: center;
+    position: relative;
+}
+#tou img{
+    position: absolute;
+    /*margin-top: 5px;*/
+    left: 150px;
+    width: 20px;
+    height: 20px;
+    border: 15px solid white;
+    cursor: pointer;
+}
+#tou .s{
+    font-size: 14px;
+    position: absolute;
+    left: 450px;
+    top: 18px;
+}
+#tou .p{
+    position: absolute;
+    font-size: 14px;
+    left: 900px;
+    top: 8px;
+}
+#tou .a{
+    position: absolute;
+    font-size: 14px;
+    left: 900px;
+    top: 26px;
+}
+#zhong{
+    width: 100%;
+}
+#zhong p img{
+    width: 100%;
+    height: 100%;
+}
+#zhong input{
+    width: 200px;
+    height: 40px;
+    margin-left: 900px;
+    margin-top: 10px;
+    position: relative;
+}
+#dao{
+    width: 100%;
+}
+#dao img{
+    /*width: 100%;*/
+    width: 70px;
+    height: 70px;
+    margin-left: 180px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.hang{
+    width: 100%;
+    margin: -45px 0 0 270px;
+}
+.hang li{
+    float: left;
+    margin-left: 24px;
+    /*margin-top: 10px;*/
+    list-style-type:none ;
+}
+.hang a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+.hang a:hover{
+    color: red;
+}
+#ban{
+    width: 100%;
+}
+.ban img{
+    width: 88%;
+    margin: 55px 80px 20px 80px;
+}
+.we img{
+    width: 90%;
+    margin: 20px 80px 10px 60px;
+}
+.we1{
+    width: 100%;
+}
+.we1 img{
+    width: 21%;
+    float: left;
+    margin: 0px -36px 10px 70px;
+}
+.we1 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.the img{
+    width: 570px;
+    height: 495px;
+    margin: 30px 0px 0 -218px;
+}
+.the img:nth-child(2){
+    width: 320px;
+    height: 495px;
+    margin: 20px 0 0 5px;
+}
+.here{
+    float: right;
+}
+.h11{
+    font-size: 50px;
+    font-weight: bold;
+    color: #015496;
+    margin: 60px 135px 0 0px;
+}
+.h12{
+    font-size: 50px;
+    font-weight: bold;
+    color: #609BC7;
+    margin-top: -10px;
+    /*margin: 0px 50px 0 0px;*/
+}
+.h13{
+    font-size: 50px;
+    font-weight: bold;
+    color: #A4C8E2;
+    margin-top: -10px;
+    /*margin: 0px 50px 0 0px;*/
+}
+.h21{
+    font-size: 28px;
+    font-weight: bold;
+    color: #025790;
+}
+.here p{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.h22{
+    font-size: 26px;
+    font-weight: bold;
+    color: #015496;
+    margin-top: 13px;
+}
+.biao{
+    width: 185px;
+    height: 30px;
+    background-color: #015496;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.biao:hover{
+    border: 1px solid aqua;
+    background-color: aqua;
+    cursor: pointer;
+    /*transform: scale(1.2);*/
+    /*transition: 1s;*/
+}
+.re{
+    width: 100%;
+}
+.tu img{
+    width:88%;
+    margin: 20px 0 0 80px;
+}
+.lun{
+    width: 100%;
+}
+.lun{
+    width: 1320px;
+    /*height: 405px;*/
+    /*border: 1px solid #000;*/
+    /*overflow: hidden;*/
+    margin: 0 auto;
+}
+.lun ul{
+    width: 1320px;
+}
+.lun ul li{
+    list-style: none;
+    /*visibility: hidden;*/
+}
+.lun img{
+    width: 220px;
+    float: left;
+    margin: 10px -70px 0 70px;
+    box-shadow: 0 0 2px aqua;
+    /*添加过渡效果*/
+    transition: 2s;
+
+}
+.lun img:hover{
+    box-shadow: 0 0 50px white;
+}
+
+.girl img{
+    width: 545px;
+    height: 545px;
+    margin: 40px 0 0 68px;
+    float: left;
+    position: relative;
+}
+.li h1{
+    width: 542px;
+    height: 44px;
+    line-height: 44px;
+    border: 2px solid  #000000;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 2905px;
+    left: 68px;
+}
+.li:hover{
+    cursor: pointer;
+    color: aqua;
+    /*border: 2px solid aquamarine;*/
+}
+.girl2 img{
+    width: 545px;
+    height: 545px;
+    margin: 40px 0 0 20px;
+}
+.li1 h2{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid  #000000;
+    background-color: #ACD3F4;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 2750px;
+    left: 950px;
+}
+.li1:hover{
+    cursor: pointer;
+    color: lavenderblush;
+}
+
+.jing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.jing2{
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-right: 100px;
+
+}
+.dian{
+    /*float: left;*/
+    width: 25%;
+}
+.dian img{
+    /*width: 21%;*/
+    width: 258px;
+    margin: 30px 30px 0 72px;
+    box-shadow: 0 0 2px aqua;
+    transition: 2s;
+}
+.dian img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 70px white;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.dian h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0 10px 68px;
+    color: #010743;
+}
+
+.dian p{
+    width: 258px;
+    font-size: 12px;
+    margin: 10px 0 0 68px;
+    color: #848484;
+}
+.dian h2{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 30px 0 0 68px;
+    color: #000E8E;
+}
+.dian h2:hover{
+    cursor: pointer;
+    color: red;
+}
+.hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.gap{
+    /*margin: 0 auto;*/
+    margin-left: 125px;
+    margin-top: 30px;
+}
+.gap img{
+    width: 28%;
+    margin-left: 10px;
+}
+.gap img:hover{
+    cursor: pointer;
+    animation: 2s;
+    width: 400px;
+    /*height: 400px;*/
+    transition: 1s;
+}
+.be{
+    margin: 0 auto;
+    width: 78%;
+    height: 80px;
+    border-top: 2px solid #000741;
+    border-bottom: 2px solid #000741;
+    margin-top: 30px;
+    position: relative;
+}
+.be2 span{
+    /*margin: 30px 0 0 30px;*/
+    /*margin-top: 20px;*/
+    margin-left: 30px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #000741;
+}
+.be2 p{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.be3 input{
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    background-color: #DDDDDD;
+    left: 260px;
+    top: 20px;
+    border: 1px solid grey;
+}
+.be3 span{
+    position: absolute;
+    left: 540px;
+    top: 30px;
+    font-size: 14px;
+}
+.be3 div{
+    position: absolute;
+    border-right: 1px solid #000000;
+    height: 60px;
+    left: 630px;
+    top: 10px;
+}
+.be3 span:hover{
+    cursor: pointer;
+    color: #00a9e0;
+}
+.be4 .s{
+    position: absolute;
+    left: 650px;
+    top: 10px;
+    font-size: 14px;
+}
+.be4 .s:hover{
+    cursor: pointer;
+    background:url("../QR_gap.png");
+}
+.be4 div{
+    position: absolute;
+    border-right: 1px solid #000000;
+    height: 60px;
+    left: 790px;
+    top: 10px;
+}
+.be4 .p{
+    position: absolute;
+    left: 810px;
+    top: 10px;
+    font-size: 14px;
+}
+.be4 .p:hover{
+    cursor: pointer;
+    background-image:url("../QR_gap.png");
+}
+.bu{
+    margin: 50px 0 0 380px;
+}
+.bu li{
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.bu li a{
+    text-decoration: none;
+    color: #000000;
+}
+.bu a:hover{
+    color: #00C1F8;
+}
+.bu .p1{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.bu2{
+    margin: 20px 0 0 340px;
+}
+.bu2 li{
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.bu2 li img{
+    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+}
+.bu2 li a{
+    text-decoration: none;
+    color: #000000;
+}
+.bu2 .p2{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
